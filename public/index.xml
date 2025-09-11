@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.haot.wang/</link>
     <description>Recent content on Math</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ht.wang</copyright>
     <lastBuildDate>Thu, 11 Sep 2025 18:00:00 +0800</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.haot.wang/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>Math Research</title>
-        <link>http://localhost:1313/posts/math-research/</link>
+        <link>https://www.haot.wang/posts/math-research/</link>
         <pubDate>Thu, 11 Sep 2025 18:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/posts/math-research/</guid>
-        <description>Math http://localhost:1313/posts/math-research/ -&lt;h2 id=&#34;1-基础部分适当做题掌握语言概念实例反例&#34;&gt;1. 基础部分：适当做题，掌握语言、概念、实例、反例&lt;/h2&gt;
+        <guid>https://www.haot.wang/posts/math-research/</guid>
+        <description>Math https://www.haot.wang/posts/math-research/ -&lt;h2 id=&#34;1-基础部分适当做题掌握语言概念实例反例&#34;&gt;1. 基础部分：适当做题，掌握语言、概念、实例、反例&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;数学分析：
 &lt;ol&gt;
@@ -509,7 +509,7 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-- http://localhost:1313/posts/math-research/ - ht.wang</description>
+- https://www.haot.wang/posts/math-research/ - ht.wang</description>
         </item>
     
     
