@@ -32,7 +32,6 @@ theme = "diary"
     unsafe = true
 
 [params]
-mainSections = ["post"]
 enableLaTeX=true
 
 subtitle = "Ἀγεωμέτρητος μηδεὶς εἰσίτω"
