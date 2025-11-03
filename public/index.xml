@@ -7,9 +7,99 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ht.wang</copyright>
-    <lastBuildDate>Thu, 11 Sep 2025 18:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 18:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.haot.wang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Mathematical Analysis</title>
+        <link>https://www.haot.wang/posts/mathematical-analysis/</link>
+        <pubDate>Sun, 05 Oct 2025 18:00:00 +0800</pubDate>
+        
+        <guid>https://www.haot.wang/posts/mathematical-analysis/</guid>
+        <description>Math https://www.haot.wang/posts/mathematical-analysis/ -&lt;h1 id=&#34;number-system&#34;&gt;Number System&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;basic concepts:
+&lt;ol&gt;
+&lt;li&gt;ordered sets&lt;/li&gt;
+&lt;li&gt;sup/inf&lt;/li&gt;
+&lt;li&gt;least-upper-bound property：
+If E $\subset$ S, E is not empty, and E is bounded above, then sup E exists in S.&lt;/li&gt;
+&lt;li&gt;field:
+&lt;ol&gt;
+&lt;li&gt;A/M/D&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Real field:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Definition&lt;/strong&gt; There exists an ordered field R which has the least-upper-bound property&lt;/li&gt;
+&lt;li&gt;Archimedean property&lt;/li&gt;
+&lt;li&gt;Q is dense in R&lt;/li&gt;
+&lt;li&gt;? &lt;em&gt;proof and construction&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;complex field:
+&lt;ol&gt;
+&lt;li&gt;Schwarz inequality&lt;img src=&#34;https://image-1301391052.cos.ap-beijing.myqcloud.com/20251003114739063.png&#34; alt=&#34;image.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;$\lvert x \cdot y\rvert\leq\lvert x\rvert \cdot \lvert y \rvert$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;basic-topology&#34;&gt;Basic Topology&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;basic concepts:
+&lt;ol&gt;
+&lt;li&gt;Set
+&lt;ol&gt;
+&lt;li&gt;into, onto, 1-1 mapping, equivalent(~), cardinal number&lt;/li&gt;
+&lt;li&gt;finite, countable, at most countable, uncountable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theorem&lt;/strong&gt; Every infinite subset of a countable set A is countable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theorem&lt;/strong&gt;&lt;img src=&#34;https://image-1301391052.cos.ap-beijing.myqcloud.com/20251005121306417.png&#34; alt=&#34;image.png&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Corollary&lt;/strong&gt;&lt;img src=&#34;https://image-1301391052.cos.ap-beijing.myqcloud.com/20251005121456940.png&#34; alt=&#34;image.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Corollary&lt;/strong&gt; The set of all rational numbers is countable.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Metric Spaces
+&lt;ol&gt;
+&lt;li&gt;convex&lt;/li&gt;
+&lt;li&gt;limit point, interior point, bounded, open, closed, perfect, dense&lt;/li&gt;
+&lt;li&gt;compact:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Theorem&lt;/strong&gt; Suppose  $K\subset Y \subset X$. Then $K$ is compact relative to X if and only if K is compact relative to $Y$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theorem&lt;/strong&gt; Compact subsets of metric spaces are closed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theorem&lt;/strong&gt; Closed subsets of compact sets are compact.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theorem&lt;/strong&gt; If ${K_\alpha}$ is a collection of compact subsets of metric space X such that the intersection of every finite subcollection of ${K_\alpha}$ is nonempty, the $\bigcap K_\alpha$ is nonempty.
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Corollary&lt;/strong&gt; If ${K_\alpha}$ is a sequence of nonempty compact sets such that $K_n\subset K_n+1(n=1,2,3&amp;hellip;)$, then $\bigcap^\infty_1 K_n$ is not empty&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theorem&lt;/strong&gt; If E is an infinite subset of a compact set K, then E has a limit point in K.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heine-Borel theorem&lt;/strong&gt; &lt;img src=&#34;https://image-1301391052.cos.ap-beijing.myqcloud.com/20251005205423379.png&#34; alt=&#34;image.png&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;perfect sets:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Theorem&lt;/strong&gt; Let $P$ be a nonempty perfect set in $R^k$.Then P is uncountable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Cantor set&lt;/strong&gt;: An example of an uncountable set of measure zero&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;connected sets&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Numerical Sequences and Series
+1.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+- https://www.haot.wang/posts/mathematical-analysis/ - ht.wang</description>
+        </item>
     
     
     
