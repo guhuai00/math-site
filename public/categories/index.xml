@@ -7,20 +7,20 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>ht.wang</copyright>
-    <lastBuildDate>Sun, 05 Oct 2025 18:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://www.haot.wang/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Notes</title>
-      <link>https://www.haot.wang/categories/notes/</link>
-      <pubDate>Sun, 05 Oct 2025 18:00:00 +0800</pubDate>
-      <guid>https://www.haot.wang/categories/notes/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Plan</title>
       <link>https://www.haot.wang/categories/plan/</link>
-      <pubDate>Thu, 11 Sep 2025 18:00:00 +0800</pubDate>
+      <pubDate>Sat, 28 Feb 2026 12:00:00 +0800</pubDate>
       <guid>https://www.haot.wang/categories/plan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>https://www.haot.wang/categories/notes/</link>
+      <pubDate>Mon, 03 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.haot.wang/categories/notes/</guid>
       <description></description>
     </item>
   </channel>

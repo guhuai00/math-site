@@ -10,7 +10,7 @@
 <meta name="google-site-verification" content="">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
 <meta content="telephone=no" name="format-detection">
-<meta name="description" content="Notes for Mathematical Analysis">
+<meta name="description" content="Notes for Mathematical Analysis, based on baby rudin">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
 
@@ -189,6 +189,114 @@
 					
 				
 			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#numerical-sequences-and-series" class="nav-numerical-sequences-and-series">
+									Numerical Sequences and Series
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#continuity" class="nav-continuity">
+									Continuity
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#differentiation" class="nav-differentiation">
+									Differentiation
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#the-riemann-stieltjes-integral" class="nav-the-riemann-stieltjes-integral">
+									The Riemann-Stieltjes Integral
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#sequences-and-series-of-functions" class="nav-sequences-and-series-of-functions">
+									Sequences and Series of Functions
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#some-special-functions" class="nav-some-special-functions">
+									Some Special Functions
+								</a>
+							</li>
+						
+						
+					
+				
+			
 		</ul>
 	</div>
 
@@ -254,13 +362,13 @@
                     Mathematical Analysis
                     
                     <div class="post-subtitle">
-                        Notes for Mathematical Analysis
+                        Notes for Mathematical Analysis, based on baby rudin
                     </div>
                     
                     <div class="post-meta">
                         
                         <time itemprop="datePublished">
-                            2025-10-05 18:00
+                            2025-11-03 10:00
                         </time>
                         
 
@@ -282,12 +390,12 @@
                 
                     <h1 id="number-system">Number System</h1>
 <ol>
-<li>basic concepts:
+<li>Concepts:
 <ol>
 <li>ordered sets</li>
-<li>sup/inf</li>
+<li>$sup/inf$</li>
 <li>least-upper-bound property：
-If E $\subset$ S, E is not empty, and E is bounded above, then sup E exists in S.</li>
+If $E\subset S$ , $E$ is not empty, and $E$ is bounded above, then $sup E$exists in $S$.</li>
 <li>field:
 <ol>
 <li>A/M/D</li>
@@ -295,15 +403,15 @@ If E $\subset$ S, E is not empty, and E is bounded above, then sup E exists in S
 </li>
 <li>Real field:
 <ol>
-<li><strong>Definition</strong> There exists an ordered field R which has the least-upper-bound property</li>
+<li><strong>Definition</strong> There exists an ordered field $R$ which has the least-upper-bound property</li>
 <li>Archimedean property</li>
-<li>Q is dense in R</li>
+<li>$Q$ is dense in $R$</li>
 <li>? <em>proof and construction</em></li>
 </ol>
 </li>
 <li>complex field:
 <ol>
-<li>Schwarz inequality<img src="https://image-1301391052.cos.ap-beijing.myqcloud.com/20251003114739063.png" alt="image.png"></li>
+<li>Schwarz inequality: $$\left|\sum_{j=1}^na_j\bar{b}<em>j\right|^2\leq\sum</em>{j=1}^n|a_j|^2\sum_{j=1}^n|b_j|^2.$$</li>
 <li>$\lvert x \cdot y\rvert\leq\lvert x\rvert \cdot \lvert y \rvert$</li>
 </ol>
 </li>
@@ -312,16 +420,16 @@ If E $\subset$ S, E is not empty, and E is bounded above, then sup E exists in S
 </ol>
 <h1 id="basic-topology">Basic Topology</h1>
 <ol>
-<li>basic concepts:
+<li>Concepts:
 <ol>
 <li>Set
 <ol>
 <li>into, onto, 1-1 mapping, equivalent(~), cardinal number</li>
 <li>finite, countable, at most countable, uncountable</li>
 <li><strong>Theorem</strong> Every infinite subset of a countable set A is countable.</li>
-<li><strong>Theorem</strong><img src="https://image-1301391052.cos.ap-beijing.myqcloud.com/20251005121306417.png" alt="image.png">
+<li><strong>Theorem</strong> Corollary Suppose $A$ is at most countable, and for every $\alpha \in A$, $B_\alpha$ is at most countable. Put $T = \bigcup_{\alpha \in A} B_\alpha.$ Then $T$ is at most countable.
 <ol>
-<li><strong>Corollary</strong><img src="https://image-1301391052.cos.ap-beijing.myqcloud.com/20251005121456940.png" alt="image.png"></li>
+<li><strong>Corollary</strong> Let $A$ be a countable set, and let $B_{n}$ be the set of all $n$-tuples $(a_{1}, \ldots, a_{n})$, where $a_{k} \in A$ $(k = 1, \ldots, n)$, and the elements $a_{1}, \ldots, a_{n}$ need not be distinct. Then $B_{n}$ is countable.</li>
 <li><strong>Corollary</strong> The set of all rational numbers is countable.</li>
 </ol>
 </li>
@@ -341,7 +449,7 @@ If E $\subset$ S, E is not empty, and E is bounded above, then sup E exists in S
 <li><strong>Corollary</strong> If ${K_\alpha}$ is a sequence of nonempty compact sets such that $K_n\subset K_n+1(n=1,2,3&hellip;)$, then $\bigcap^\infty_1 K_n$ is not empty</li>
 </ol>
 </li>
-<li><strong>Theorem</strong> If E is an infinite subset of a compact set K, then E has a limit point in K.</li>
+<li><strong>Theorem</strong> If $E$ is an infinite subset of a compact set $K$, then $E$ has a limit point in $K$.</li>
 <li><strong>Heine-Borel theorem</strong> <img src="https://image-1301391052.cos.ap-beijing.myqcloud.com/20251005205423379.png" alt="image.png"></li>
 </ol>
 </li>
@@ -352,17 +460,337 @@ If E $\subset$ S, E is not empty, and E is bounded above, then sup E exists in S
 </ol>
 </li>
 <li>connected sets</li>
+<li></li>
 </ol>
 </li>
-<li>Numerical Sequences and Series
+</ol>
+</li>
+</ol>
+<h1 id="numerical-sequences-and-series">Numerical Sequences and Series</h1>
+<ol>
+<li>Concepts：
+<ol>
+<li>Sequences：
+<ol>
+<li>convergent and subsequences
+<ol>
+<li><strong>Theorem</strong> If $E \subset X$ and if $p$ is a limit point of $E$, then there is a sequence ${p_n}$ in $E$ such that $p=\lim_{n\to\infty} p_n$</li>
+<li><strong>Theorem</strong> If {$p_n$} is a sequence in a compact metric space $X$, then some subsequence of {$p_n$} converges to a point of X.
+<ol>
+<li><strong>Corollary</strong> Every bounded sequence in $R^k$ contains a convergent subsequence.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Cauchy sequences：
+<ol>
+<li><strong>Theorem</strong> <img src="https://image-1301391052.cos.ap-beijing.myqcloud.com/20251006103210460.png" alt="image.png"></li>
+<li><strong>Corollary</strong> (<strong>Cauchy criterion</strong>)：A sequence converges in $R^k$ if and only if it is a Cauchy sequence</li>
+<li><strong>Definition</strong> A metric space in which every Cauchy sequence converges is said to be complete.</li>
+</ol>
+</li>
+<li>monotonic sequences
+<ol>
+<li><strong>Theorem</strong> Suppose ${s_n}$ is monotonic. Then ${s_n}$ converges if and only if it is bounded.</li>
+</ol>
+</li>
+<li>upper and lower limits</li>
+<li>some special sequences</li>
+</ol>
+</li>
+<li>Series:
+<ol>
+<li>Cauchy criterion
+<ol>
+<li>$|\sum_{k=m}^{n}a_k|\leq \varepsilon$</li>
+<li><strong>Theorem</strong> If $\sum{a_n}$ converges, then $\lim_{n\rightarrow+\infty}a_n = 0$</li>
+</ol>
+</li>
+<li><strong>Theorem</strong> A series of nonnegative terms converges if and only if its partial sums form a bounded sequence</li>
+<li>comparison test</li>
+<li>series of nonnegative terms
+<ol>
+<li>geometric series：If $0 \leq x &lt; 1$, then$$\sum_{n=0}^{\infty} x^{n} = \frac{1}{1 - x}.$$If $x \geq 1$, the series diverges.</li>
+<li><strong>Theorem</strong> Suppose $a_1 \geq a_2 \geq a_3 \geq \cdots \geq 0$. Then the series $\sum_{n=1}^{\infty} a_n$ converges if and only if the series$$\sum_{k=0}^{\infty} 2^k a_{2k} = a_1 + 2a_2 + 4a_4 + 8a_8 + \cdots$$converges.
+<ol>
+<li><strong>Theorem</strong> $\sum\frac{1}{n^p}\text{ converges if }p&gt;1\text{ and diverges if }p\leq1.$</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>$e$
+<ol>
+<li><strong>Definition</strong> $$e=\sum_{n=0}^{\infty}\frac{1}{n!}=\lim_{n\rightarrow \infty} {(1+\frac{1}{n})}^n$$</li>
+</ol>
+</li>
+<li>root and ratio test
+<ol>
+<li><strong>Theorem(Root Test)</strong> Given $\Sigma a_{n}$, put $\alpha=\lim_{n \to \infty} sup \sqrt[n]{|a_{n}|}$. Then
+<ol>
+<li>if $\alpha &lt; 1$, $\Sigma a_{n}$ converges;</li>
+<li>if $\alpha &gt; 1$, $\Sigma a_{n}$ diverges;</li>
+<li>if $\alpha = 1$, the test gives no information.</li>
+</ol>
+</li>
+<li><strong>Theorem(Ratio Test)</strong> The series $\sum a_n$
+<ol>
+<li>converges if $lim_{n\to \infty} sup |\frac{a_{n+1}}{a_n}| &lt; 1$,</li>
+<li>diverges if $|\frac{a_{n+1}}{a_n}| \geq 1$ for all $n \geq n_0$, where $n_0$ is some fixed integer.</li>
+</ol>
+</li>
+<li><strong>Remarks</strong>
+<ol>
+<li>the root test has wider scope</li>
+<li>all for absolute convergence</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>power series</li>
+<li>summation by parts
+<ol>
+<li><strong>Theorem</strong> Suppose:
+(a) the partial sums $A_n$ of $\sum a_n$ form a bounded sequence;
+(b) $b_0 \geq b_1 \geq b_2 \geq \cdots$;
+(c) $\lim_{n \to \infty} b_n = 0$.
+Then $\sum a_n b_n$ converges.</li>
+</ol>
+</li>
+<li>absolute convergence</li>
+<li>addition and multiplication of series
+<ol>
+<li>Cauchy product:
+<ol>
+<li><strong>Theorem</strong> the Cauchy product of two convergent series converges, if at least one of the two series converges absolutely</li>
+<li><strong>Theorem</strong> If the series $\sum a_n$, $\sum b_n$, $\sum c_n$ converge to $A$, $B$, $C$, then $C = AB$</li>
+</ol>
+</li>
+<li>Rearrangement
+<ol>
+<li><strong>Theorem</strong> Let $\sum a_n$ be a series of real numbers which converges, but not absolutely. Suppose $-\infty \leq \alpha \leq \beta \leq + \infty$ . Then there exists a rearrangement $\sum a&rsquo;_n$ with partial sums $\sum s&rsquo;<em>n$ such that   $lim</em>{n \to \infty} inf ;s&rsquo;<em>n = \alpha$,    $lim</em>{n \to \infty} sup ;s&rsquo;_n = \beta$</li>
+<li><strong>Theorem</strong> If $\sum a _n$ is a series of complex numbers which converges absolutely, then every rearrangement of $\sum a _n$ converges, and they all converge to the same sum.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Key Points:
+<ol>
+<li>Series Convergence:
+<ol>
+<li>Cauchy criterion</li>
+<li>If $\sum a_n$ converges, then $\lim _{n\to\infty}a_n = 0$.</li>
+<li>Nonnegative terms - monotonic</li>
+<li>comparison test</li>
+<li>the terms of the series decrease monotonically: $\sum_{k=0}^{\infty} 2^k a_{2k}$ （$a_1 \geq a_2 \geq a_3 \geq \cdots \geq 0$）</li>
+<li>root test</li>
+<li>ratio test</li>
+<li>summation by parts:$\sum a_nb_n$</li>
+<li>Cauchy product</li>
+</ol>
+</li>
+<li>special series
+<ol>
+<li>$\sum x^n$</li>
+<li>$\sum \frac{1}{n^p}$</li>
+<li>$\sum \frac{1}{log n}$</li>
+</ol>
+</li>
+<li><strong>Remark</strong>
+<ol>
+<li>The comparison, root and ratio tests, is really a test for absolute convergence.</li>
+<li>Summation by parts can sometimes be used to handle the non-absolutely convergent series.</li>
+<li>Power series converge absolutely in the interior of the circle of convergence.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h1 id="continuity">Continuity</h1>
+<ol>
+<li>Concepts:
+<ol>
+<li>Limits of Function</li>
+<li>Continuous Function
+<ol>
+<li><strong>Theorem</strong> f is continuous at p if and only if $\lim _{x\to\infty} f(x)=f(p)$.</li>
+<li><strong>Theorem</strong> A mapping $f$ of a metric space X into a metric space Y is continuous on X if and only if $f^{-1}(V)$ is open in X for every open set V in Y.</li>
+</ol>
+</li>
+<li>Continuous and Compactness
+<ol>
+<li><strong>Theorem</strong> Suppose $f$ is a continuous mapping of a compact metric space X into a metric space Y. Then $f(X)$ is compact.</li>
+<li>uniformly continuous
+<ol>
+<li><strong>Definition</strong></li>
+<li><strong>Theorem</strong> Let f be a continuous mapping of a compact metric space X into a metric space Y. Then f is uniformly continuous on X.(i.e. continuous on compact metric space = uniformly continuous)</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Continuity and Connectedness</li>
+<li>DisContinuities
+<ol>
+<li>first kind(simple discontinuity), second kind</li>
+<li><strong>Theorem</strong> Let $f$ be monotonically increasing on $(a, b)$. Then $f(x+)$ and $f(x-)$ exist at every point $x$ of $(a, b)$.
+<ol>
+<li><strong>Corollary</strong> Monotonic functions have no discontinuities of the second kind.</li>
+<li>Let $f$ be monotonic on $(a, b)$. Then the set of points of $(a, b)$ at which $f$ is discontinuous is at most countable.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Infinite limits and limits at infinity</li>
+</ol>
+</li>
+</ol>
+<h1 id="differentiation">Differentiation</h1>
+<ol>
+<li>Concepts:
+<ol>
+<li>Derivative</li>
+<li>Mean Value Theorems
+<ol>
+<li><strong>Theorem</strong> generalized mean value theorem:If $f$ and $g$ are continuous real functions on $[a, b]$ which are differentiable in $(a, b)$, then there is a point $x\in (a,b)$ at which$$[f(b)-f(a)]g&rsquo;(x)=[g(b)-g(a)]f&rsquo;(x)$$
+<ol>
+<li><strong>Corollary</strong> mean value theorem($g(x)=x$):If $f$ is a real continuous function on $[a, b]$ which is differentiable in $(a, b)$, then there is a point $x\in(a, b)$ at which$$f(b)-f(a)=(b-a)f&rsquo;(x)$$</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>The Continuity of Derivatives
+<ol>
+<li><strong>Theorem</strong> Suppose $f$ is a real differentiable function on $[a, b]$ and suppose $f&rsquo;(a) &lt; \lambda &lt;f&rsquo;(b)$. Then there is a point $x \in (a, b)$ such that $f&rsquo;(x) = \lambda$.
+<ol>
+<li><strong>Corollary</strong> If $f$ is differentiable on $[a, b ]$, then $f&rsquo;$ cannot have any simple discontinuities on $[a, b ]$.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>L&rsquo;Hospital&rsquo;s Rule
+<ol>
+<li>Proof：by generalized mean value theorem</li>
+</ol>
+</li>
+<li>Derivative of Higher Order</li>
+<li>Taylor&rsquo;s Theorem
+<ol>
+<li><strong>Theorem</strong> $$f(\beta)=\sum_{k=0}^{n-1}\frac{f^k(\alpha)}{k!}(\beta-\alpha)^k+\frac{f^n(x)}{n!}(\beta-\alpha)^n$$</li>
+</ol>
+</li>
+<li>Differentiation of vector-valued function
+<ol>
+<li><strong>Remark</strong> the mean value theorem and its corollary(i.e. L&rsquo;Hospital&rsquo;s rule) does <em>not</em> apply</li>
+<li><strong>Theorem</strong> Suppose $\mathbf{f}$ is a continuous mapping of $[a, b]$ into $R^k$and $\mathbf{f}$ is differentiable in $(a, b)$. Then there exists $x \in (a, b)$ such that$$|\mathbf{f}(b)-\mathbf{f}(a)|\leq(b-a)|\mathbf{f}&rsquo;(x)|$$</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h1 id="the-riemann-stieltjes-integral">The Riemann-Stieltjes Integral</h1>
+<ol>
+<li>Concepts:
+<ol>
+<li>Existence of the Integral
+<ol>
+<li><strong>Theorem</strong> $f\in \mathscr R(\alpha)$ on $[a, b]$ if and only if for every $\varepsilon &gt; 0$ there exists a partition P such that$$U(P,f,\alpha)-L(P,f,\alpha)&lt;\varepsilon$$</li>
+<li><strong>Theorem</strong> If $f$ is continuous on $[a, b]$ then $f\in \mathscr{R}(\alpha)$ on $[a, b]$.</li>
+<li><strong>Theorem</strong> If $f$ is monotonic on $[a, b ]$, and if $\alpha$ is continuous on $[a, b ]$, then $f\in \mathscr{R}(\alpha)$. (We still assume that $\alpha$ is monotonic.)</li>
+<li><strong>Theorem</strong> Suppose $f$ is bounded on $[a, b]$, f has only finitely many points of discontinuity on $[a, b ]$, and $\alpha$ is continuous at every point at which $f$ is discontinuous. Then $f\in \mathscr{R}(\alpha)$.</li>
+<li><strong>Theorem</strong> Suppose $f \in \mathscr{R}(\alpha)$ on $[a, b]$, $m\leq f \leq M$, $\phi$ is continuous on $[m, M]$, and $h(x) = \phi (f(x))$ on $[a, b]$. Then $h\in \mathscr{R}(\alpha)$ on $[a, b]$.</li>
+</ol>
+</li>
+<li>Properties of the Integral
+<ol>
+<li><strong>Theorem</strong> Assume $\alpha$ increases monotonically and $\alpha&rsquo; \in \mathscr{R}$ on $[a, b]$. Let $f$ be a bounded real function on $[a, b ]$. Then $f\in \mathscr{R}(\alpha)$ if and only if $f\alpha&rsquo; \in \mathscr{R}$. In that case$$\int_a^bfd\alpha = \int_a^bf\alpha&rsquo;dx$$</li>
+<li><strong>Theorem</strong>(change of variable): Suppose $\varphi$ is a strictly increasing continuous function that maps an interval $[A, B]$ onto $[a, b]$. Suppose $\alpha$ is monotonically increasing on $[a, b]$ and $f\in \mathscr{R}(\alpha)$on $[a, b]$. Define $\beta$ and $g$ on $[A, B]$ by $\beta(y)=\alpha(\varphi(y))$, $g(y)=f(\varphi(y))$. Then $g\in \mathscr{R}(\beta)$ and $$\int_A^B gd\beta=\int_a^bfd\alpha$$</li>
+</ol>
+</li>
+<li>Integration and Differentiation
+<ol>
+<li><strong>The fundamental theorem of calculus:</strong>  If $f\in \mathscr{R}$ on $[a, b]$ and if the there is a differentiable function $F$ on $[a, b]$ such that $F&rsquo; = f$, then$$\int_a^bf(x)dx=F(b)-F(a)$$</li>
+<li><strong>Theorem</strong>(integration by parts): Suppose $F$ and $G$ are differentiable functions on $[a, b]$, $F&rsquo; = f \in \mathscr{R}$, and $G&rsquo; = g \in \mathscr{R}$. Then$$\int_a^bF(x)g(x)dx=F(b)G(b)-F(a)G(a)-\int_a^bf(x)G(x)dx$$</li>
+</ol>
+</li>
+<li>Integration of vector-valued Functions</li>
+<li>Rectifiable curves
+<ol>
+<li>$Theorem$ If $\gamma&rsquo;$ is continuous on $[a, b]$, then $\gamma$ is rectifiable, and$$\Lambda(\gamma)=\int_a^b|\gamma&rsquo;(t)|dt$$</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Extension:</li>
+<li>Key points:</li>
+</ol>
+<h1 id="sequences-and-series-of-functions">Sequences and Series of Functions</h1>
+<ol>
+<li>Concepts:
+<ol>
+<li>Pointwise convergence</li>
+<li>Uniform convergence
+<ol>
+<li><strong>Theorem</strong>（Cauchy criterion） The sequence of functions {$f_n$}, defined on $E$, converges uniformly on $E$ if and only if for every $\varepsilon&gt;0$ there exists an integer $N$ such that $m\geq N, n\geq N, x \in E$implies$$|f_n(x)-f_m(x)|\leq \varepsilon$$</li>
+<li><strong>Theorem</strong> Suppose $\lim_{n\to\infty}f_n(x)=f(x)$, put $M_n = sup_{x\in E}|f_n(x)-f(x)|$, Then $f_n \to f$ uniformly on $E$ if and only if $M_n \to 0$ as $n\to \infty$.</li>
+<li><strong>Theorem</strong> Suppose ${f_n}$ is a sequence of functions defined on $E$, and suppose $|f_n(x)|\leq M_n$, Then $\sum f_n$ converges uniformly on $E$ if $\sum M_n$ converges.</li>
+</ol>
+</li>
+<li>Uniform convergence and Continuity
+<ol>
+<li><strong>Theorem</strong> If ${f_n}$ is a sequence of continuous functions on $E$, and if $f_n \to f$ uniformly on $E$, then $f$ is continuous on $E$.</li>
+<li><strong>Theorem</strong><img src="https://image-1301391052.cos.ap-beijing.myqcloud.com/20251015115301654.png" alt="image.png"></li>
+<li><strong>Definition</strong> If $X$ is a metric space, $\mathscr{C}(X)$ will denote the set of all complex valued, continuous, bounded functions with domain $X$. We associate with each $f\in \mathscr{C}(X)$ its supremum norm： $\lVert f\rVert =sup_{x\in E}|f(x)|$， then made $\mathscr{C}(X)$ into a <strong>complete</strong> metric space.</li>
+</ol>
+</li>
+<li>Uniform convergence and Integration
+<ol>
+<li><strong>Theorem</strong> if$f_n \subset R(\alpha)$, suppose $f_n \to f$ uniformly, then $f\subset R(\alpha)$, and $$\int_a^b fd\alpha = \lim_{n\to\infty}\int_a^b f_nd\alpha$$ $$\int_a^b fd\alpha = \sum_{n=1}^{\infty}\int_a^bf_nd\alpha$$</li>
+</ol>
+</li>
+<li>Uniform convergence and Differentiation
+<ol>
+<li><strong>Theorem</strong> Suppose ${f_n}$ is a sequence of functions, differentiable on $[a, b]$ and such that ${f_n(x_0)}$ converges for some point $x_0$ on $[a, b]$. If ${f_n&rsquo;}$ converges uniformly on $[a, b ]$, then ${f_n}$ converges uniformly on $[a, b ]$, to a function $f$, and $f&rsquo;(x)=\lim_{n\to\infty}f_n&rsquo;(x)$</li>
+</ol>
+</li>
+<li>Equicontinuous family of functions
+<ol>
+<li><em>pointwise bounded</em> and <em>uniformly bounded</em></li>
+<li>bounded and convergence
+<ol>
+<li><strong>Theorem</strong> If ${f_n}$ is a pointwise bounded sequence of complex functions on a <strong>countable</strong> set E, then ${f_n}$ has a subsequence ${f_{n_k}}$ such that ${f_{n_k}}$ converges for every $x\in E$.</li>
+</ol>
+</li>
+<li>Equicontinuous
+<ol>
+<li><strong>Definition</strong> A family $\mathscr{F}$ of complex functions $f$ defined on a set $E$in a metric space $X$ is said to be <strong>equicontinuous</strong> on $E$ if for every $\varepsilon &gt; 0$ there exists a $\delta &gt; 0$ such that $|f(x)-f(y)|&lt;\varepsilon$, whenever $d(x,y)&lt;\delta, x\in E, y\in E,f\in \mathscr{F}$.(i.e. every member of an equicontinuous family is uniformly continuous).</li>
+</ol>
+</li>
+<li>Equicontinuous and uniform convergence
+<ol>
+<li><strong>Theorem</strong> If $K$ is a compact metric space, if $f_n \in \mathscr{C}(K)$for n = 1, 2, 3, &hellip; , and if ${f_n}$ converges uniformly on $K$, then ${f_n}$ is equicontinuous on K.(i.e. uniform continuous and uniform convergence = equicontinuous)</li>
+<li><strong>Theorem</strong> If $K$ is compact, if $f_n\in \mathscr{C}(K)$ for n = 1, 2, 3, &hellip; , and if {${f_n}$} is pointwise bounded and equicontinuous on $K$, then
+(a){$f_n$} is uniformly bounded on K.
+(b){$f_n$} contains a uniformly convergent subsequence.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>! <del>={9}The Stone-Weierstrass Theorem=</del></li>
+</ol>
+</li>
+</ol>
+<h1 id="some-special-functions">Some Special Functions</h1>
+<ol>
+<li>Concepts:
 1.</li>
-</ol>
-</li>
 </ol>
 
                     
                     <HR width="100%" id="EOF">
-		    <p style="color:#777;">Last modified on 2025-10-05</p>
+		    <p style="color:#777;">Last modified on 2025-11-03</p>
                     
                 </div>
             </div>
@@ -371,8 +799,8 @@ If E $\subset$ S, E is not empty, and E is bounded above, then sup E exists in S
             <nav class="post-pagination">
 
                 
-                <a class="newer-posts">
-			Next<br>No newer posts.
+                <a class="newer-posts" href="/posts/-%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92%E7%AE%97%E6%9C%AF%E5%87%A0%E4%BD%95%E4%B8%8E%E4%BB%A3%E6%95%B0%E6%95%B0%E8%AE%BA-/">
+			Next<br>学习计划
                 </a>
                 
                 
@@ -524,6 +952,114 @@ If E $\subset$ S, E is not empty, and E is bounded above, then sup E exists in S
 							<li>
 								<a href="#basic-topology" class="nav-basic-topology">
 									Basic Topology
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#numerical-sequences-and-series" class="nav-numerical-sequences-and-series">
+									Numerical Sequences and Series
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#continuity" class="nav-continuity">
+									Continuity
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#differentiation" class="nav-differentiation">
+									Differentiation
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#the-riemann-stieltjes-integral" class="nav-the-riemann-stieltjes-integral">
+									The Riemann-Stieltjes Integral
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#sequences-and-series-of-functions" class="nav-sequences-and-series-of-functions">
+									Sequences and Series of Functions
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#some-special-functions" class="nav-some-special-functions">
+									Some Special Functions
 								</a>
 							</li>
 						
