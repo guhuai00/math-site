@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Math</title>
-    <link>https://www.haot.wang/posts/</link>
-    <description>Recent content in Posts on Math</description>
+    <title>Notes-Phase 1 on Math</title>
+    <link>https://www.haot.wang/categories/notes-phase-1/</link>
+    <description>Recent content in Notes-Phase 1 on Math</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>ht.wang</copyright>
-    <lastBuildDate>Mon, 09 Mar 2026 18:00:00 +0800</lastBuildDate>
-    <atom:link href="https://www.haot.wang/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Math Research(p-adic geometry and BSD conjecture)</title>
-      <link>https://www.haot.wang/posts/math-researchp-adic-geometry-and-bsd-conjecture/</link>
-      <pubDate>Mon, 09 Mar 2026 18:00:00 +0800</pubDate>
-      <guid>https://www.haot.wang/posts/math-researchp-adic-geometry-and-bsd-conjecture/</guid>
-      <description>&lt;h2 id=&#34;第一阶段&#34;&gt;第一阶段&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;分析主线：数学分析&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;baby rudin：只看前九章&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;基本分析讲义：复习概念&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;重点：一致收敛，极限交换，隐函数定理&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;^拓扑流形主线：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;点集拓扑：GTM 202前四章&lt;/li&gt;&#xA;&lt;li&gt;微分流形：Loring W. Tu《An Introduction to Manifolds》&#xA;&lt;ol&gt;&#xA;&lt;li&gt;重点：切空间、微分形式、Stokes 定理，de Rham 上同调&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;代数主线：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;^线性代数：Hoffman &amp;amp; Kunze《Linear Algebra》&lt;/li&gt;&#xA;&lt;li&gt;抽象代数：李文威《代数学方法》&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第二阶段&#34;&gt;第二阶段&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;分析主线：^实分析（Folland） + 复分析（Ahlfors）&lt;/li&gt;&#xA;&lt;li&gt;代数主线：交换代数&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Atiyah（精读并做完所有习题）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Matsumura《Commutative Ring Theory》&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;p-adic Numbers：Fernando Q. Gouvêa《p-adic Numbers: An Introduction》&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第三阶段&#34;&gt;第三阶段&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;黎曼曲面：Rick Miranda 《Algebraic Curves and Riemann Surfaces》&lt;/li&gt;&#xA;&lt;li&gt;^代数拓扑：Hatcher《代数拓扑》前三章&lt;/li&gt;&#xA;&lt;li&gt;同调代数：&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Weibel《同调代数导论》&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;导出范畴与三角范畴：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Gelfand &amp;amp; Manin 《Methods of Homological Algebra》&lt;/li&gt;&#xA;&lt;li&gt;案头字典： Kashiwara &amp;amp; Schapira 《Categories and Sheaves》前六章&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;同调交换代数与局部上同调&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Iyengar, Leuschke, et al. 《Twenty-Four Hours of Local Cohomology》&amp;lt;全书按讲座（Hours）编排，极度推荐前 15 讲&amp;gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第四阶段&#34;&gt;第四阶段&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;代数几何：&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Shafarevich：Basic Algebraic Geometry 1 前三章&lt;/li&gt;&#xA;&lt;li&gt;Hartshorne（GTM52）&#xA;&lt;ol&gt;&#xA;&lt;li&gt;精读Ch1-4，跳过Ch5&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Liu Qing 《Algebraic Geometry and Arithmetic Curves》&#xA;&lt;ol&gt;&#xA;&lt;li&gt;略读Ch 1 - Ch 7，重点精读Ch 8 - Ch 10&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;代数数论与类域论：&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Neukirch&lt;/li&gt;&#xA;&lt;li&gt;J.-P. Serre《Local Fields》&lt;/li&gt;&#xA;&lt;li&gt;J.-P. Serre《Linear Representations of Finite Groups》&lt;/li&gt;&#xA;&lt;li&gt;Cassels &amp;amp; Fröhlich&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Tate&amp;rsquo;s thesis：Ramakrishnan &amp;amp; Valenza, &lt;em&gt;Fourier Analysis on Number Fields&lt;/em&gt; (GTM 186)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第五阶段&#34;&gt;第五阶段&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;$L$ 函数、模形式与自守形式：&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Sun, 08 Mar 2026 18:00:00 +0800</lastBuildDate>
+    <atom:link href="https://www.haot.wang/categories/notes-phase-1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathematical Analysis</title>
       <link>https://www.haot.wang/posts/mathematical-analysis/</link>

@@ -1,9 +1,9 @@
 ---
 title: "Mathematical Analysis"
-date: 2025-11-03T10:00:00+08:00
+date: 2026-03-08T18:00:00+08:00
 description: "Notes for Mathematical Analysis, based on baby rudin"
 featured_image: "/images/notebook.jpg"
-categories: "Notes"
+categories: "Notes-Phase 1"
 ---
 
 

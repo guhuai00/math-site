@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>Math Research(p-adic geometry and BSD conjecture)</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="Plan for study and research">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.e7856739a9bc9ba7f60993a5312a23baa0aa16a8c07df3d103f117d6eafb8520.css" integrity="sha256-54VnOam8m6f2CZOlMSojuqCqFqjAffPRA/EX1ur7hSA=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>console.log("Hello from 'layouts/partials/extended_head.html'")</script>
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Tags
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS Feed
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%80%e9%98%b6%e6%ae%b5" class="nav-第一阶段">
+									第一阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5" class="nav-第二阶段">
+									第二阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5" class="nav-第三阶段">
+									第三阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%9b%9b%e9%98%b6%e6%ae%b5" class="nav-第四阶段">
+									第四阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%94%e9%98%b6%e6%ae%b5" class="nav-第五阶段">
+									第五阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%85%ad%e9%98%b6%e6%ae%b5bsd%e7%8c%9c%e6%83%b3" class="nav-第六阶段bsd猜想">
+									第六阶段：BSD猜想
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%83%e9%98%b6%e6%ae%b5p-adic%e5%87%a0%e4%bd%95" class="nav-第七阶段p-adic几何">
+									第七阶段：p-adic几何
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%85%ab%e9%98%b6%e6%ae%b5%e6%9c%aa%e6%9d%a5%e6%8b%93%e5%b1%95" class="nav-第八阶段未来拓展">
+									第八阶段：未来拓展
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e5%ad%a6%e4%b9%a0%e5%bb%ba%e8%ae%ae" class="nav-学习建议">
+									学习建议
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://www.haot.wang/">
+            Math
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://www.haot.wang/">
+        <div class="single-column-header-title">Math</div>
+        
+        <div class="single-column-header-subtitle">Ἀγεωμέτρητος μηδεὶς εἰσίτω</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+                
+            
+
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('https://www.haot.wang/images/notebook.jpg')"
+                    
+                
+            >
+                <div class="post-title">
+                    Math Research(p-adic geometry and BSD conjecture)
+                    
+                    <div class="post-subtitle">
+                        Plan for study and research
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-03-09 18:00
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/plan">Plan</a>
+                                &nbsp;
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="第一阶段">第一阶段</h2>
+<ol>
+<li>
+<p>分析主线：数学分析</p>
+<ol>
+<li>
+<p>baby rudin：只看前九章</p>
+</li>
+<li>
+<p>基本分析讲义：复习概念</p>
+</li>
+<li>
+<p>重点：一致收敛，极限交换，隐函数定理</p>
+</li>
+</ol>
+</li>
+<li>
+<p>^拓扑流形主线：</p>
+<ol>
+<li>点集拓扑：GTM 202前四章</li>
+<li>微分流形：Loring W. Tu《An Introduction to Manifolds》
+<ol>
+<li>重点：切空间、微分形式、Stokes 定理，de Rham 上同调</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>代数主线：</p>
+<ol>
+<li>^线性代数：Hoffman &amp; Kunze《Linear Algebra》</li>
+<li>抽象代数：李文威《代数学方法》</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h2 id="第二阶段">第二阶段</h2>
+<ol>
+<li>分析主线：^实分析（Folland） + 复分析（Ahlfors）</li>
+<li>代数主线：交换代数
+<ol>
+<li>
+<p>Atiyah（精读并做完所有习题）</p>
+</li>
+<li>
+<p>Matsumura《Commutative Ring Theory》</p>
+</li>
+</ol>
+</li>
+<li>p-adic Numbers：Fernando Q. Gouvêa《p-adic Numbers: An Introduction》</li>
+</ol>
+<hr>
+<h2 id="第三阶段">第三阶段</h2>
+<ol>
+<li>黎曼曲面：Rick Miranda 《Algebraic Curves and Riemann Surfaces》</li>
+<li>^代数拓扑：Hatcher《代数拓扑》前三章</li>
+<li>同调代数：
+<ol>
+<li>
+<p>Weibel《同调代数导论》</p>
+</li>
+<li>
+<p>导出范畴与三角范畴：</p>
+<ol>
+<li>Gelfand &amp; Manin 《Methods of Homological Algebra》</li>
+<li>案头字典： Kashiwara &amp; Schapira 《Categories and Sheaves》前六章</li>
+</ol>
+</li>
+<li>
+<p>同调交换代数与局部上同调</p>
+<ol>
+<li>Iyengar, Leuschke, et al. 《Twenty-Four Hours of Local Cohomology》&lt;全书按讲座（Hours）编排，极度推荐前 15 讲&gt;</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h2 id="第四阶段">第四阶段</h2>
+<ol>
+<li>代数几何：
+<ol>
+<li>Shafarevich：Basic Algebraic Geometry 1 前三章</li>
+<li>Hartshorne（GTM52）
+<ol>
+<li>精读Ch1-4，跳过Ch5</li>
+</ol>
+</li>
+<li>Liu Qing 《Algebraic Geometry and Arithmetic Curves》
+<ol>
+<li>略读Ch 1 - Ch 7，重点精读Ch 8 - Ch 10</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>代数数论与类域论：
+<ol>
+<li>Neukirch</li>
+<li>J.-P. Serre《Local Fields》</li>
+<li>J.-P. Serre《Linear Representations of Finite Groups》</li>
+<li>Cassels &amp; Fröhlich
+<ol>
+<li>Tate&rsquo;s thesis：Ramakrishnan &amp; Valenza, <em>Fourier Analysis on Number Fields</em> (GTM 186)</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h2 id="第五阶段">第五阶段</h2>
+<ol>
+<li>
+<p>$L$ 函数、模形式与自守形式：</p>
+<ol>
+<li>^L函数：大幅略读，只需记住公理化框架即可
+<ol>
+<li>Harold Davenport《Multiplicative Number Theory》
+<ol>
+<li>目标：彻底掌握泊松求和公式（Poisson Summation Formula），广义 Gauss 和</li>
+<li>章节：Ch6-9，Ch14</li>
+</ol>
+</li>
+<li>*Iwaniec &amp; Kowalski《Analytic Number Theory》
+<ol>
+<li>目标：Gamma 因子与整体架构，建立对更一般的整体 $L$ 函数（Global $L$-functions）的宏观认知</li>
+<li>Chapter 5：复习 Gamma 函数的极点分布和 Stirling 公式</li>
+<li>Chapter 14.1 - 14.2：熟悉现代文献中对于整体 $L$ 函数的标准化定义，不需要深究证明，只需记住公理化框架</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>模形式：Diamond &amp; Shurman《A First Course in Modular Forms》</li>
+<li>Adéle语言与自守表示：（Jacquet-Langlands 对应）
+<ol>
+<li>Goldfeld &amp; Hundley《Automorphic Representations and L-Functions for the General Linear Group》（第一卷）
+<ol>
+<li>Ch 1-4，6，8，11</li>
+</ol>
+</li>
+<li>Bump《Automorphic Forms and Representations》 （Ch3-4）
+<ol>
+<li>Ch 3.1 - 3.4，Ch 4.4</li>
+</ol>
+</li>
+<li>*Cogdell 的《Lectures on L-functions&hellip;》：关于 $GL_n$ 和 $L$-函数的繁杂分析</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>椭圆曲线：Silverman</p>
+<ol>
+<li>
+<p>《The Arithmetic of Elliptic Curves》</p>
+</li>
+<li>
+<p>《Advanced Topic of Arithmetic of Elliptic Curves》</p>
+<ol>
+<li>重点关注 CM，Tate Curve，Néron 模型，Height Functions章节</li>
+</ol>
+</li>
+<li>
+<p>拓展-计算算术几何：J.E. Cremona《Algorithms for Modular Elliptic Curves》</p>
+<ol>
+<li>在学习 Silverman 的椭圆曲线 时，同步学习使用 SageMath 或 Magma 进行实操计算</li>
+<li>建议加上 Pari/GP</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>代数群与伽罗瓦表示：</p>
+<ol>
+<li>
+<p>李代数与代数群：</p>
+<ol>
+<li>
+<p>^Humphreys《Introduction to Lie Algebras and Representation Theory》</p>
+<ol>
+<li>直接阅读前三章（尤其是第 III 部分的 Root Systems），不要沉迷于后面的表示论计算</li>
+</ol>
+</li>
+<li>
+<p>Milne《Algebraic Groups》</p>
+</li>
+</ol>
+</li>
+<li>
+<p>伽罗瓦表示与形变理论：</p>
+<ol>
+<li>
+<p>Galois Representations：</p>
+<ol>
+<li>J.-P. Serre《Galois Cohomology》</li>
+<li>Fontaine &amp; Ouyang《Theory of p-adic Galois Representations》</li>
+<li>案头字典：Neukirch, Schmidt, Wingberg《Cohomology of Number Fields》</li>
+</ol>
+</li>
+<li>
+<p>Galois形变理论（Deformation Theory）：</p>
+<ol>
+<li>Gouvêa《Deformations of Galois Representations》</li>
+</ol>
+</li>
+<li>
+<p>模性提升定理：</p>
+<ol>
+<li>Darmon, Diamond, Taylor (DDT), &ldquo;Fermat&rsquo;s Last Theorem&rdquo;，第一章</li>
+<li>Toby Gee: Modularity Lifting Theorems - Notes for Arizona Winter School (AWS 2013)</li>
+<li>补充：Cornell, Silverman, Stevens《Modular Forms and Fermat&rsquo;s Last Theorem》</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>高阶几何语言：</p>
+<ol>
+<li>Etale Cohomology：Milne《Lecture on Etale Cohomology》</li>
+<li>*广义拓扑与代数栈：Martin Olsson《Algebraic Spaces and Stacks》前几章</li>
+<li>Abelian Varieties：Milne《Abelian Varieties》</li>
+<li>*Shimura Varieties：Milne《Introduction to Shimura Varieties》</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>*代数 K 理论</p>
+<ol>
+<li>入门：Milnor《Introduction to Algebraic K-Theory》</li>
+<li>案头字典：Weibel《The K-book: An Introduction to Algebraic K-theory》
+<ol>
+<li>重点阅读前三章（$K_0, K_1, K_2$）和介绍 Quillen K-理论基本性质的章节</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h2 id="第六阶段bsd猜想">第六阶段：BSD猜想</h2>
+<ol>
+<li>
+<p>岩泽理论与Euler Systems</p>
+<ol>
+<li>岩泽理论
+<ol>
+<li>L. Washington《Introduction to Cyclotomic Fields》</li>
+<li>Greenberg 讲义：《Introduction to Iwasawa Theory for Elliptic Curves》</li>
+</ol>
+</li>
+<li>Gross-Zagier 公式 和 Kolyvagin 欧拉系统：
+<ol>
+<li>核心：Darmon《Rational Points on Modular Elliptic Curves》</li>
+<li>Gross-Zagier 原始论文《Heegner points and derivatives of $L$-series》</li>
+<li>补充阅读：
+<ol>
+<li>Karl Rubin：Euler Systems (Annals of Mathematics Studies, 147)</li>
+<li>Gross 的综述文章《Kolyvagin&rsquo;s work on modular elliptic curves》</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Kato&rsquo;s Euler Systems
+<ol>
+<li>先读 A. J. Scholl 的文章 ：Kato&rsquo;s Euler systems and p-adic L-functions</li>
+<li>Kato关于 Euler 系统的论文：Kato, K. (2004). <em>p-adic Hodge theory and values of zeta functions of modular forms</em>. (Astérisque).</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>特征簇</p>
+<ol>
+<li>p-进模形式与 Hida 理论
+<ol>
+<li>几何模形式：<em>p-adic properties of modular schemes and modular forms</em></li>
+<li>Hida 理论：Haruzo Hida《Elementary Theory of L-values and $\mu$-adic Forms》</li>
+</ol>
+</li>
+<li>Eigencurve
+<ol>
+<li><strong>核心文献</strong>：Coleman &amp; Mazur &ldquo;The Eigencurve&rdquo;</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>岩泽主猜想 (Iwasawa Main Conjectures)：</p>
+<ol>
+<li>Skinner, C., &amp; Urban, E. (2014). <em>The Iwasawa main conjectures for GL2</em>. (Inventiones mathematicae)</li>
+</ol>
+</li>
+<li>
+<p>BSD 猜想综述</p>
+<ol>
+<li>wiles ICM：BSD简述</li>
+<li>wiles BSD2018：https://www.youtube.com/watch?v=1WYlP-B9nPI</li>
+</ol>
+</li>
+<li>
+<p>补充：Bertolini-Darmon 的一系列论文</p>
+<ol>
+<li>核心：反气旋岩泽主猜想 (Anticyclotomic Iwasawa Main Conjecture)
+<ol>
+<li>&ldquo;Iwasawa&rsquo;s Main Conjecture for Elliptic Curves over Anticyclotomic $\mathbb{Z}_p$-extensions&rdquo; (Annals of Mathematics, 2005).</li>
+</ol>
+</li>
+<li>$p$-adic Gross-Zagier 公式
+<ol>
+<li>&ldquo;Heegner points on Mumford-Tate curves&rdquo; (Inventiones mathematicae, 1997).</li>
+<li>&ldquo;The p-adic L-functions of modular elliptic curves&rdquo; (2014 综述 或相关早期论文).</li>
+</ol>
+</li>
+<li>Stark-Heegner 点 (Darmon Points)</li>
+</ol>
+</li>
+<li>
+<p>补充：$p$-adic Langlands</p>
+<ol>
+<li>Euler Systems 和 岩泽主猜想，现在很多前沿工作（例如 Skinner-Urban 的工作，或者基于高维簇的 Euler Systems）都深度依赖于 Galois 形变空间与 Hecke 代数的同构</li>
+<li>核心：Matthew Emerton，Toby Gee，Eugen Hellmann 综述讲义：&ldquo;An introduction to the categorical p-adic Langlands program”
+<ol>
+<li>讲座视频：https://www.youtube.com/watch?v=kxktJUAZDHI</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>补充：(Hot Topics around BSD)</p>
+<ol>
+<li>Bipartite Euler Systems / Kolyvagin Systems：这是 Mazur 和 Rubin 后来对 Euler System 的代数化公理化，极大地简化了 Kato 时代的繁杂。建议阅读 Barry Mazur 和 Karl Rubin 的相关文章。</li>
+<li>高维情况的 Euler Systems：如 Loeffler-Zerbes 等人利用 $p$-adic 几何在更高维群上构造 Euler Systems，证明了各种新的 BSD 情况，这是近十年的显学。</li>
+<li>BSD 的 $p$-adic 版本：即 $p$-adic BSD 猜想（Mazur-Tate-Teitelbaum 猜想），它与例外零点（Exceptional Zeros）和 $\mathcal{L}$-不变量有关。这是当前 $p$-adic 几何和数论交汇的最前沿</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h2 id="第七阶段p-adic几何">第七阶段：p-adic几何</h2>
+<ol>
+<li>非阿基米德解析几何基础
+<ol>
+<li>刚性几何：快速熟悉经典例子
+<ol>
+<li>大纲：Conrad《Several approaches to non-archimedean geometry》</li>
+<li>Bosch《Lectures on Formal and Rigid Geometry》</li>
+<li>补充阅读/案头字典：Peter Schneider《Nonarchimedean Functional Analysis》</li>
+</ol>
+</li>
+<li>Adic Spaces：Torsten Wedhorn《Adic Spaces》</li>
+</ol>
+</li>
+<li>p-adic Hodge：
+<ol>
+<li>快速建立经典直觉：
+<ol>
+<li>C. Peters &amp; J. Steenbrink《Mixed Hodge Structures》前两章</li>
+<li>A. Huber &amp; S. Müller-Stach《Periods and Nori Motives》前三章</li>
+<li>补充阅读：P. Deligne &ldquo;Théorie de Hodge II&rdquo; (Publications Mathématiques de l&rsquo;IHÉS, 1971)&lt;Sections 1 &amp; 2&gt;</li>
+</ol>
+</li>
+<li>Brinon-Conrad 讲义《CMI Summer School Notes on $p$-adic Hodge Theory》</li>
+</ol>
+</li>
+<li>*$\infty$-范畴与高阶代数：Markus Land 《Introduction to Infinity-Categories》</li>
+<li>Perfectoid Spaces：(Scholze)
+<ol>
+<li>Bhatt 的讲义
+<ol>
+<li>Lecture notes for a class on perfectoid spaces（密歇根大学研究生课程讲义，讲基础拓扑建立过程）</li>
+<li>The Hodge-Tate decomposition via perfectoid spaces（亚利桑那冬校讲义，展示如何使用Perfectoid Spaces）</li>
+</ol>
+</li>
+<li>Scholze &amp; Weinstein《Berkeley Lectures on p-adic Geometry》</li>
+<li>Scholze原始论文</li>
+</ol>
+</li>
+<li>Fargues-Fontaine 曲线
+<ol>
+<li>入门综述：Fargues &ldquo;Geometrization of the local Langlands correspondence: an overview&rdquo;</li>
+<li>终极专著：Fargues &amp; Fontaine《Courbes et fibrés vectoriels en théorie de Hodge p-adique》</li>
+</ol>
+</li>
+<li>Prismatic Cohomology/Diamonds
+<ol>
+<li>基础工具：导出代数与 δ-环
+<ol>
+<li>Derived Commutative Algebra：Bhargav Bhatt 的讲义《Notes on derived algebraic geometry》</li>
+<li>δ-环 (δ-rings) 与 Witt 向量：Joyal 的经典论文 《δ-anneaux et vecteurs de Witt》</li>
+</ol>
+</li>
+<li>*动机补充：q-形变与 de Rham 上同调
+<ol>
+<li><em>Scholze 的论文：Canonical q-de Rham Cohomology</em></li>
+</ol>
+</li>
+<li>核心过渡桥梁：BMS 三部曲
+<ol>
+<li>BMS1: <em>Integral p-adic Hodge Theory</em>
+<ol>
+<li>首次利用完美空间的局部性质，在不需要“好复叠”假设的情况下，硬核地构建了整系数的 $p$-进 Hodge 理论。这是理论的破局点</li>
+</ol>
+</li>
+<li>BMS2: Topological Hochschild Homology and Integral p-adic Hodge Theory
+<ol>
+<li>将算术几何与代数拓扑深度融合，发现 BMS1 中的核心复形可以通过拓扑循环同调 (TC) 和拓扑 Hochschild 同调 (THH) 极其自然地计算出来</li>
+</ol>
+</li>
+<li>BS: Prisms and Prismatic Cohomology
+<ol>
+<li><strong>前置讲义（极度推荐）：</strong> 直接读原始论文极易迷失。强烈建议先读 Bhatt 在哥伦比亚大学的讲义，或者 ARGOS 讨论班（Bonn 大学）关于 Prismatic Cohomology 的讲义</li>
+<li>经过前两篇论文在拓扑和几何上的艰难摸索，他们最终发现可以抛弃复杂的代数拓扑，直接回到最纯粹的交换代数。通过引入带有 Frobenius 提升的 $\delta$-环，他们给出了“棱柱 (Prism)”极其精简的公理化定义，从而完美统一了所有的 $p$-进上同调理论</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h2 id="第八阶段未来拓展">第八阶段：未来拓展</h2>
+<ol>
+<li>Perfectoid Spaces，Condensed Mathematics ，Prismatic Cohomology/Diamonds
+<ol>
+<li>详见“从Perfectoid到Condensed &amp; Prismatic”</li>
+</ol>
+</li>
+<li>Arakelov 几何与算术 GGP 猜想
+<ol>
+<li>详见“Arakelov几何学习计划”</li>
+</ol>
+</li>
+<li>Motivic Cohomology，Beilinson 猜想（Regulators）
+<ol>
+<li>详见“Motivic Cohomology，Beilinson 猜想（Regulators）”</li>
+</ol>
+</li>
+<li>局部朗兰兹对应（未定稿）
+<ol>
+<li>Langlands综述：
+<ol>
+<li>&ldquo;An Elementary Introduction to the Langlands Program&rdquo;</li>
+<li>《An Introduction to the Langlands Program》</li>
+</ol>
+</li>
+<li>详见“局部朗兰兹对应”</li>
+</ol>
+</li>
+<li>其他：详见“学习路线补充”</li>
+</ol>
+<hr>
+<h1 id="学习建议">学习建议</h1>
+<ol>
+<li>黑盒化能力：重点关注定理的使用场景，适用条件，结论，输入/输出</li>
+<li>阅读论文：
+<ol>
+<li>核心能力是读懂前沿论文，建议提前引入原始文献阅读</li>
+<li>阅读论文时重点关注作者是如何利用不同工具解决问题，以及==尝试自行解决论文里的某个引理或小节。==</li>
+<li>艰深的工具可以黑盒化，不要陷入细节</li>
+</ol>
+</li>
+<li>ArXiv 预印本，讨论班讲义（Lecture Notes），学术会议视频
+<ol>
+<li>跟踪 arXiv 上的 math.NT (数论) 和 math.AG (代数几何)</li>
+<li>寻找 Bhargav Bhatt, Peter Scholze, Laurent Fargues, Matthew Emerton, David Hansen 等人的最新讲义和录像</li>
+<li>暑期学校与讨论班讲义：学者的个人主页，Arizona Winter School (AWS) 的讲义和视频， MSRI/SLMath 或 IAS 的暑期学校录像</li>
+</ol>
+</li>
+<li>The Stacks Project</li>
+<li>重视计算实验</li>
+</ol>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2026-03-09</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/mathematical-analysis/">
+			Previous<br>Mathematical Analysis
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://www.haot.wang/">
+    
+        <div class="nav-title">
+            Math
+        </div>
+        
+        <div class="nav-subtitle">
+            Ἀγεωμέτρητος μηδεὶς εἰσίτω
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Tags
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS Feed
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+
+
+&copy;
+	
+	ht.wang
+	
+
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%80%e9%98%b6%e6%ae%b5" class="nav-第一阶段">
+									第一阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5" class="nav-第二阶段">
+									第二阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5" class="nav-第三阶段">
+									第三阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%9b%9b%e9%98%b6%e6%ae%b5" class="nav-第四阶段">
+									第四阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%94%e9%98%b6%e6%ae%b5" class="nav-第五阶段">
+									第五阶段
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%85%ad%e9%98%b6%e6%ae%b5bsd%e7%8c%9c%e6%83%b3" class="nav-第六阶段bsd猜想">
+									第六阶段：BSD猜想
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%83%e9%98%b6%e6%ae%b5p-adic%e5%87%a0%e4%bd%95" class="nav-第七阶段p-adic几何">
+									第七阶段：p-adic几何
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%85%ab%e9%98%b6%e6%ae%b5%e6%9c%aa%e6%9d%a5%e6%8b%93%e5%b1%95" class="nav-第八阶段未来拓展">
+									第八阶段：未来拓展
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e5%ad%a6%e4%b9%a0%e5%bb%ba%e8%ae%ae" class="nav-学习建议">
+									学习建议
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+
+
+&copy;
+	
+	ht.wang
+	
+
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
